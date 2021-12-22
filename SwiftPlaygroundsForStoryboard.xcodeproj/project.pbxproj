@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		AD9A4A642772F53C00B95AE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9A4A632772F53C00B95AE4 /* AppDelegate.swift */; };
 		AD9A4A662772F53C00B95AE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9A4A652772F53C00B95AE4 /* SceneDelegate.swift */; };
-		AD9A4A682772F53C00B95AE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9A4A672772F53C00B95AE4 /* ViewController.swift */; };
 		AD9A4A6B2772F53C00B95AE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9A4A692772F53C00B95AE4 /* Main.storyboard */; };
 		AD9A4A6D2772F53D00B95AE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD9A4A6C2772F53D00B95AE4 /* Assets.xcassets */; };
 		AD9A4A702772F53D00B95AE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9A4A6E2772F53D00B95AE4 /* LaunchScreen.storyboard */; };
 		AD9A4A7B2772F53E00B95AE4 /* SwiftPlaygroundsForStoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9A4A7A2772F53E00B95AE4 /* SwiftPlaygroundsForStoryboardTests.swift */; };
 		AD9A4A852772F53E00B95AE4 /* SwiftPlaygroundsForStoryboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9A4A842772F53E00B95AE4 /* SwiftPlaygroundsForStoryboardUITests.swift */; };
 		AD9A4A872772F53E00B95AE4 /* SwiftPlaygroundsForStoryboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9A4A862772F53E00B95AE4 /* SwiftPlaygroundsForStoryboardUITestsLaunchTests.swift */; };
+		AD9A4A9B2772F61E00B95AE4 /* BiometryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9A4A992772F61D00B95AE4 /* BiometryViewController.swift */; };
+		AD9A4A9E2772F65C00B95AE4 /* Biometry.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9A4A9D2772F65C00B95AE4 /* Biometry.storyboard */; };
+		ADE3A4B72772F77B0016C152 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE3A4B62772F77B0016C152 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,6 @@
 		AD9A4A602772F53C00B95AE4 /* SwiftPlaygroundsForStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPlaygroundsForStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD9A4A632772F53C00B95AE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD9A4A652772F53C00B95AE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AD9A4A672772F53C00B95AE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AD9A4A6A2772F53C00B95AE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD9A4A6C2772F53D00B95AE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD9A4A6F2772F53D00B95AE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		AD9A4A802772F53E00B95AE4 /* SwiftPlaygroundsForStoryboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPlaygroundsForStoryboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD9A4A842772F53E00B95AE4 /* SwiftPlaygroundsForStoryboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPlaygroundsForStoryboardUITests.swift; sourceTree = "<group>"; };
 		AD9A4A862772F53E00B95AE4 /* SwiftPlaygroundsForStoryboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPlaygroundsForStoryboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AD9A4A992772F61D00B95AE4 /* BiometryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometryViewController.swift; sourceTree = "<group>"; };
+		AD9A4A9D2772F65C00B95AE4 /* Biometry.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Biometry.storyboard; sourceTree = "<group>"; };
+		ADE3A4B62772F77B0016C152 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +105,8 @@
 			children = (
 				AD9A4A632772F53C00B95AE4 /* AppDelegate.swift */,
 				AD9A4A652772F53C00B95AE4 /* SceneDelegate.swift */,
-				AD9A4A672772F53C00B95AE4 /* ViewController.swift */,
-				AD9A4A692772F53C00B95AE4 /* Main.storyboard */,
+				AD9A4A9F2772F66600B95AE4 /* Storyboard */,
+				AD9A4A962772F5C100B95AE4 /* ViewController */,
 				AD9A4A6C2772F53D00B95AE4 /* Assets.xcassets */,
 				AD9A4A6E2772F53D00B95AE4 /* LaunchScreen.storyboard */,
 				AD9A4A712772F53D00B95AE4 /* Info.plist */,
@@ -125,6 +129,24 @@
 				AD9A4A862772F53E00B95AE4 /* SwiftPlaygroundsForStoryboardUITestsLaunchTests.swift */,
 			);
 			path = SwiftPlaygroundsForStoryboardUITests;
+			sourceTree = "<group>";
+		};
+		AD9A4A962772F5C100B95AE4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ADE3A4B62772F77B0016C152 /* MainViewController.swift */,
+				AD9A4A992772F61D00B95AE4 /* BiometryViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		AD9A4A9F2772F66600B95AE4 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AD9A4A692772F53C00B95AE4 /* Main.storyboard */,
+				AD9A4A9D2772F65C00B95AE4 /* Biometry.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD9A4A702772F53D00B95AE4 /* LaunchScreen.storyboard in Resources */,
+				AD9A4A9E2772F65C00B95AE4 /* Biometry.storyboard in Resources */,
 				AD9A4A6D2772F53D00B95AE4 /* Assets.xcassets in Resources */,
 				AD9A4A6B2772F53C00B95AE4 /* Main.storyboard in Resources */,
 			);
@@ -258,9 +281,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD9A4A682772F53C00B95AE4 /* ViewController.swift in Sources */,
+				AD9A4A9B2772F61E00B95AE4 /* BiometryViewController.swift in Sources */,
 				AD9A4A642772F53C00B95AE4 /* AppDelegate.swift in Sources */,
 				AD9A4A662772F53C00B95AE4 /* SceneDelegate.swift in Sources */,
+				ADE3A4B72772F77B0016C152 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +466,7 @@
 				DEVELOPMENT_TEAM = 66PKF55HK5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftPlaygroundsForStoryboard/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Face ID Usage Description";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -470,6 +495,7 @@
 				DEVELOPMENT_TEAM = 66PKF55HK5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftPlaygroundsForStoryboard/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Face ID Usage Description";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

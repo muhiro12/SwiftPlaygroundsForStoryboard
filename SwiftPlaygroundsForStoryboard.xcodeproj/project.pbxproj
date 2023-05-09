@@ -84,6 +84,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD7011C32A09D24700664F6B /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				AD7011C52A09D26800664F6B /* Biometry */,
+				AD7011C42A09D25A00664F6B /* Main */,
+				AD7011C62A09D28D00664F6B /* Table */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		AD7011C42A09D25A00664F6B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AD9A4A692772F53C00B95AE4 /* Main.storyboard */,
+				ADE3A4B62772F77B0016C152 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		AD7011C52A09D26800664F6B /* Biometry */ = {
+			isa = PBXGroup;
+			children = (
+				AD9A4A9D2772F65C00B95AE4 /* Biometry.storyboard */,
+				AD9A4A992772F61D00B95AE4 /* BiometryViewController.swift */,
+			);
+			path = Biometry;
+			sourceTree = "<group>";
+		};
+		AD7011C62A09D28D00664F6B /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				AD2ECBCB282BA61900F6DAA1 /* Table.storyboard */,
+				AD2ECBC7282BA33700F6DAA1 /* TableViewController.swift */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
 		AD9A4A572772F53C00B95AE4 = {
 			isa = PBXGroup;
 			children = (
@@ -107,13 +144,12 @@
 		AD9A4A622772F53C00B95AE4 /* SwiftPlaygroundsForStoryboard */ = {
 			isa = PBXGroup;
 			children = (
+				AD9A4A712772F53D00B95AE4 /* Info.plist */,
 				AD9A4A632772F53C00B95AE4 /* AppDelegate.swift */,
 				AD9A4A652772F53C00B95AE4 /* SceneDelegate.swift */,
-				AD9A4A9F2772F66600B95AE4 /* Storyboard */,
-				AD9A4A962772F5C100B95AE4 /* ViewController */,
 				AD9A4A6C2772F53D00B95AE4 /* Assets.xcassets */,
+				AD7011C32A09D24700664F6B /* Feature */,
 				AD9A4A6E2772F53D00B95AE4 /* LaunchScreen.storyboard */,
-				AD9A4A712772F53D00B95AE4 /* Info.plist */,
 			);
 			path = SwiftPlaygroundsForStoryboard;
 			sourceTree = "<group>";
@@ -133,26 +169,6 @@
 				AD9A4A862772F53E00B95AE4 /* SwiftPlaygroundsForStoryboardUITestsLaunchTests.swift */,
 			);
 			path = SwiftPlaygroundsForStoryboardUITests;
-			sourceTree = "<group>";
-		};
-		AD9A4A962772F5C100B95AE4 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				AD9A4A992772F61D00B95AE4 /* BiometryViewController.swift */,
-				ADE3A4B62772F77B0016C152 /* MainViewController.swift */,
-				AD2ECBC7282BA33700F6DAA1 /* TableViewController.swift */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
-		AD9A4A9F2772F66600B95AE4 /* Storyboard */ = {
-			isa = PBXGroup;
-			children = (
-				AD9A4A9D2772F65C00B95AE4 /* Biometry.storyboard */,
-				AD9A4A692772F53C00B95AE4 /* Main.storyboard */,
-				AD2ECBCB282BA61900F6DAA1 /* Table.storyboard */,
-			);
-			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

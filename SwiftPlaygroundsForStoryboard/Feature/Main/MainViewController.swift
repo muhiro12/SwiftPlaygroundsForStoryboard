@@ -12,7 +12,8 @@ class MainViewController: UIViewController {
 
     private let viewControllers = [
         UIStoryboard(name: "Biometry", bundle: nil).instantiateInitialViewController()!,
-        UIStoryboard(name: "Table", bundle: nil).instantiateInitialViewController()!
+        UIStoryboard(name: "Table", bundle: nil).instantiateInitialViewController()!,
+        UIStoryboard(name: "Banner", bundle: nil).instantiateInitialViewController()!
     ]
 
     override func viewDidLoad() {
@@ -38,6 +39,7 @@ extension MainViewController: UITableViewDataSource {
 
 extension MainViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
         let vc = viewControllers[indexPath.row]
         navigationController?.pushViewController(vc, animated: true)
     }

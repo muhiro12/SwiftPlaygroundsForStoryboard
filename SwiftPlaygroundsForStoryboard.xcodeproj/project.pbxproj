@@ -22,6 +22,8 @@
 		AD9A4A872772F53E00B95AE4 /* SwiftPlaygroundsForStoryboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9A4A862772F53E00B95AE4 /* SwiftPlaygroundsForStoryboardUITestsLaunchTests.swift */; };
 		AD9A4A9B2772F61E00B95AE4 /* BiometryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9A4A992772F61D00B95AE4 /* BiometryViewController.swift */; };
 		AD9A4A9E2772F65C00B95AE4 /* Biometry.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9A4A9D2772F65C00B95AE4 /* Biometry.storyboard */; };
+		ADA032222A14956B00D865F5 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA032212A14956B00D865F5 /* WebViewController.swift */; };
+		ADA032242A14957E00D865F5 /* Web.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA032232A14957E00D865F5 /* Web.storyboard */; };
 		ADE3A4B72772F77B0016C152 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE3A4B62772F77B0016C152 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +64,8 @@
 		AD9A4A862772F53E00B95AE4 /* SwiftPlaygroundsForStoryboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPlaygroundsForStoryboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AD9A4A992772F61D00B95AE4 /* BiometryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometryViewController.swift; sourceTree = "<group>"; };
 		AD9A4A9D2772F65C00B95AE4 /* Biometry.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Biometry.storyboard; sourceTree = "<group>"; };
+		ADA032212A14956B00D865F5 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		ADA032232A14957E00D865F5 /* Web.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Web.storyboard; sourceTree = "<group>"; };
 		ADE3A4B62772F77B0016C152 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +101,7 @@
 				AD7011C52A09D26800664F6B /* Biometry */,
 				AD7011C42A09D25A00664F6B /* Main */,
 				AD7011C62A09D28D00664F6B /* Table */,
+				ADA032202A14954E00D865F5 /* Web */,
 			);
 			path = Feature;
 			sourceTree = "<group>";
@@ -186,6 +191,15 @@
 				AD9A4A862772F53E00B95AE4 /* SwiftPlaygroundsForStoryboardUITestsLaunchTests.swift */,
 			);
 			path = SwiftPlaygroundsForStoryboardUITests;
+			sourceTree = "<group>";
+		};
+		ADA032202A14954E00D865F5 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				ADA032232A14957E00D865F5 /* Web.storyboard */,
+				ADA032212A14956B00D865F5 /* WebViewController.swift */,
+			);
+			path = Web;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,6 +310,7 @@
 				AD9A4A702772F53D00B95AE4 /* LaunchScreen.storyboard in Resources */,
 				AD9A4A9E2772F65C00B95AE4 /* Biometry.storyboard in Resources */,
 				AD2ECBCC282BA61900F6DAA1 /* Table.storyboard in Resources */,
+				ADA032242A14957E00D865F5 /* Web.storyboard in Resources */,
 				AD9A4A6D2772F53D00B95AE4 /* Assets.xcassets in Resources */,
 				AD9A4A6B2772F53C00B95AE4 /* Main.storyboard in Resources */,
 			);
@@ -329,6 +344,7 @@
 				AD9A4A662772F53C00B95AE4 /* SceneDelegate.swift in Sources */,
 				AD2ECBC9282BA33700F6DAA1 /* TableViewController.swift in Sources */,
 				ADE3A4B72772F77B0016C152 /* MainViewController.swift in Sources */,
+				ADA032222A14956B00D865F5 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,9 +11,10 @@ class MainViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
 
     private let viewControllers = [
+        UIStoryboard(name: "Banner", bundle: nil).instantiateInitialViewController()!,
         UIStoryboard(name: "Biometry", bundle: nil).instantiateInitialViewController()!,
         UIStoryboard(name: "Table", bundle: nil).instantiateInitialViewController()!,
-        UIStoryboard(name: "Banner", bundle: nil).instantiateInitialViewController()!
+        UIStoryboard(name: "Web", bundle: nil).instantiateInitialViewController()!
     ]
 
     override func viewDidLoad() {

@@ -13,6 +13,7 @@ class MainViewController: UIViewController {
     private let viewControllers = [
         UIStoryboard(name: "Banner", bundle: nil).instantiateInitialViewController()!,
         UIStoryboard(name: "Biometry", bundle: nil).instantiateInitialViewController()!,
+        UIStoryboard(name: "PassKit", bundle: nil).instantiateInitialViewController()!,
         UIStoryboard(name: "Table", bundle: nil).instantiateInitialViewController()!,
         UIStoryboard(name: "Web", bundle: nil).instantiateInitialViewController()!
     ]

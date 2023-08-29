@@ -15,6 +15,7 @@ class MainViewController: UIViewController {
         UIStoryboard(name: "Biometry", bundle: nil).instantiateInitialViewController()!,
         UIStoryboard(name: "PassKit", bundle: nil).instantiateInitialViewController()!,
         UIStoryboard(name: "Table", bundle: nil).instantiateInitialViewController()!,
+        UIStoryboard(name: "TextField", bundle: nil).instantiateInitialViewController()!,
         UIStoryboard(name: "Web", bundle: nil).instantiateInitialViewController()!
     ]
 

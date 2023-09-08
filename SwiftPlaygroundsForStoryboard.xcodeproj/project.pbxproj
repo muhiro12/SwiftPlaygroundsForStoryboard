@@ -26,6 +26,8 @@
 		AD9A4A9E2772F65C00B95AE4 /* Biometry.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9A4A9D2772F65C00B95AE4 /* Biometry.storyboard */; };
 		ADA032222A14956B00D865F5 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA032212A14956B00D865F5 /* WebViewController.swift */; };
 		ADA032242A14957E00D865F5 /* Web.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA032232A14957E00D865F5 /* Web.storyboard */; };
+		ADDF76BD2AAAF3A800CDEC7E /* HiraginoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDF76BC2AAAF3A800CDEC7E /* HiraginoViewController.swift */; };
+		ADDF76BF2AAAF4C600CDEC7E /* Hiragino.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADDF76BE2AAAF4C600CDEC7E /* Hiragino.storyboard */; };
 		ADE3A4B72772F77B0016C152 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE3A4B62772F77B0016C152 /* MainViewController.swift */; };
 		ADF7DA2C2A25854E002EFE94 /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF7DA2B2A25854E002EFE94 /* TextFieldViewController.swift */; };
 		ADF7DA2E2A25855B002EFE94 /* TextField.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF7DA2D2A25855B002EFE94 /* TextField.storyboard */; };
@@ -72,6 +74,8 @@
 		AD9A4A9D2772F65C00B95AE4 /* Biometry.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Biometry.storyboard; sourceTree = "<group>"; };
 		ADA032212A14956B00D865F5 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		ADA032232A14957E00D865F5 /* Web.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Web.storyboard; sourceTree = "<group>"; };
+		ADDF76BC2AAAF3A800CDEC7E /* HiraginoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiraginoViewController.swift; sourceTree = "<group>"; };
+		ADDF76BE2AAAF4C600CDEC7E /* Hiragino.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Hiragino.storyboard; sourceTree = "<group>"; };
 		ADE3A4B62772F77B0016C152 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		ADF7DA2B2A25854E002EFE94 /* TextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
 		ADF7DA2D2A25855B002EFE94 /* TextField.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TextField.storyboard; sourceTree = "<group>"; };
@@ -116,6 +120,7 @@
 			children = (
 				AD7011C72A09D2EA00664F6B /* Banner */,
 				AD7011C52A09D26800664F6B /* Biometry */,
+				ADDF76BB2AAAF36000CDEC7E /* Hiragino */,
 				AD7011C42A09D25A00664F6B /* Main */,
 				AD6D1E632A1C8A69000E9DA7 /* PassKit */,
 				AD7011C62A09D28D00664F6B /* Table */,
@@ -219,6 +224,15 @@
 				ADA032212A14956B00D865F5 /* WebViewController.swift */,
 			);
 			path = Web;
+			sourceTree = "<group>";
+		};
+		ADDF76BB2AAAF36000CDEC7E /* Hiragino */ = {
+			isa = PBXGroup;
+			children = (
+				ADDF76BE2AAAF4C600CDEC7E /* Hiragino.storyboard */,
+				ADDF76BC2AAAF3A800CDEC7E /* HiraginoViewController.swift */,
+			);
+			path = Hiragino;
 			sourceTree = "<group>";
 		};
 		ADF7DA2A2A258529002EFE94 /* TextField */ = {
@@ -343,6 +357,7 @@
 				ADA032242A14957E00D865F5 /* Web.storyboard in Resources */,
 				AD9A4A6D2772F53D00B95AE4 /* Assets.xcassets in Resources */,
 				AD9A4A6B2772F53C00B95AE4 /* Main.storyboard in Resources */,
+				ADDF76BF2AAAF4C600CDEC7E /* Hiragino.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +387,7 @@
 				AD9A4A642772F53C00B95AE4 /* AppDelegate.swift in Sources */,
 				AD7011CB2A09D32400664F6B /* BannerViewController.swift in Sources */,
 				AD7011CD2A09E49000664F6B /* FloatingBannerViewController.swift in Sources */,
+				ADDF76BD2AAAF3A800CDEC7E /* HiraginoViewController.swift in Sources */,
 				AD6D1E672A1C8ABA000E9DA7 /* PassKitViewController.swift in Sources */,
 				AD9A4A662772F53C00B95AE4 /* SceneDelegate.swift in Sources */,
 				AD2ECBC9282BA33700F6DAA1 /* TableViewController.swift in Sources */,

@@ -13,6 +13,7 @@ class MainViewController: UIViewController {
     private let viewControllers = [
         UIStoryboard(name: "Banner", bundle: nil).instantiateInitialViewController()!,
         UIStoryboard(name: "Biometry", bundle: nil).instantiateInitialViewController()!,
+        UIStoryboard(name: "Hiragino", bundle: nil).instantiateInitialViewController()!,
         UIStoryboard(name: "PassKit", bundle: nil).instantiateInitialViewController()!,
         UIStoryboard(name: "Table", bundle: nil).instantiateInitialViewController()!,
         UIStoryboard(name: "TextField", bundle: nil).instantiateInitialViewController()!,
@@ -21,6 +22,8 @@ class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        title = String(describing: type(of: self))
 
         tableView.dataSource = self
         tableView.delegate = self
@@ -44,6 +47,7 @@ extension MainViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         let vc = viewControllers[indexPath.row]
+        vc.title = String(describing: type(of: vc))
         navigationController?.pushViewController(vc, animated: true)
     }
 }

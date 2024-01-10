@@ -14,6 +14,8 @@
 		AD7011C92A09D30A00664F6B /* Banner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD7011C82A09D30A00664F6B /* Banner.storyboard */; };
 		AD7011CB2A09D32400664F6B /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7011CA2A09D32400664F6B /* BannerViewController.swift */; };
 		AD7011CD2A09E49000664F6B /* FloatingBannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7011CC2A09E49000664F6B /* FloatingBannerViewController.swift */; };
+		AD7BE2082B4E454B00298E21 /* Collection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD7BE2072B4E454B00298E21 /* Collection.storyboard */; };
+		AD7BE20A2B4E456F00298E21 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7BE2092B4E456F00298E21 /* CollectionViewController.swift */; };
 		AD9A4A642772F53C00B95AE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9A4A632772F53C00B95AE4 /* AppDelegate.swift */; };
 		AD9A4A662772F53C00B95AE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9A4A652772F53C00B95AE4 /* SceneDelegate.swift */; };
 		AD9A4A6B2772F53C00B95AE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9A4A692772F53C00B95AE4 /* Main.storyboard */; };
@@ -61,6 +63,8 @@
 		AD7011C82A09D30A00664F6B /* Banner.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Banner.storyboard; sourceTree = "<group>"; };
 		AD7011CA2A09D32400664F6B /* BannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewController.swift; sourceTree = "<group>"; };
 		AD7011CC2A09E49000664F6B /* FloatingBannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingBannerViewController.swift; sourceTree = "<group>"; };
+		AD7BE2072B4E454B00298E21 /* Collection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Collection.storyboard; sourceTree = "<group>"; };
+		AD7BE2092B4E456F00298E21 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		AD9A4A602772F53C00B95AE4 /* SwiftPlaygroundsForStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPlaygroundsForStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD9A4A632772F53C00B95AE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD9A4A652772F53C00B95AE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +130,7 @@
 			children = (
 				AD7011C72A09D2EA00664F6B /* Banner */,
 				AD7011C52A09D26800664F6B /* Biometry */,
+				AD7BE2062B4E43AD00298E21 /* Collection */,
 				ADDF76BB2AAAF36000CDEC7E /* Hiragino */,
 				AD7011C42A09D25A00664F6B /* Main */,
 				AD6D1E632A1C8A69000E9DA7 /* PassKit */,
@@ -172,6 +177,15 @@
 				AD7011CC2A09E49000664F6B /* FloatingBannerViewController.swift */,
 			);
 			path = Banner;
+			sourceTree = "<group>";
+		};
+		AD7BE2062B4E43AD00298E21 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				AD7BE2072B4E454B00298E21 /* Collection.storyboard */,
+				AD7BE2092B4E456F00298E21 /* CollectionViewController.swift */,
+			);
+			path = Collection;
 			sourceTree = "<group>";
 		};
 		AD9A4A572772F53C00B95AE4 = {
@@ -365,6 +379,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD7BE2082B4E454B00298E21 /* Collection.storyboard in Resources */,
 				AD6D1E692A1C8ACB000E9DA7 /* PassKit.storyboard in Resources */,
 				AD7011C92A09D30A00664F6B /* Banner.storyboard in Resources */,
 				ADF7DA2E2A25855B002EFE94 /* TextField.storyboard in Resources */,
@@ -404,6 +419,7 @@
 				AD9A4A9B2772F61E00B95AE4 /* BiometryViewController.swift in Sources */,
 				AD9A4A642772F53C00B95AE4 /* AppDelegate.swift in Sources */,
 				AD7011CB2A09D32400664F6B /* BannerViewController.swift in Sources */,
+				AD7BE20A2B4E456F00298E21 /* CollectionViewController.swift in Sources */,
 				ADA9F6212B0DB12900C145BE /* ProductDetailViewController.swift in Sources */,
 				AD7011CD2A09E49000664F6B /* FloatingBannerViewController.swift in Sources */,
 				ADDF76BD2AAAF3A800CDEC7E /* HiraginoViewController.swift in Sources */,
